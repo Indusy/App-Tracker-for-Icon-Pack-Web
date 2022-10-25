@@ -1,0 +1,4 @@
+
+[submodule "docs"]
+	path = apps/app-tracker-vue/public/docs
+	url = git@github.com:Oblatum/App-Tracker-Docs.git

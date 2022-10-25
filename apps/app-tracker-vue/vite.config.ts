@@ -57,8 +57,7 @@ export default defineConfig({
   base: './',
   server: {
     host: '0.0.0.0',
-    port: 8989,
-    open: true,
+    port: 8080,
     proxy: {
       ...confProxy('/api', {
         changeOrigin: true,

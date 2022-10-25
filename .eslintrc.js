@@ -54,16 +54,7 @@ module.exports = {
       },
     ],
     'vue/singleline-html-element-content-newline': 'off',
-    'vue/html-indent': [
-      'error',
-      2,
-      {
-        attribute: 1,
-        baseIndent: 1,
-        closeBracket: 0,
-        alignAttributesVertically: true,
-        ignores: [],
-      },
-    ],
+    'vue/html-indent': 'off',
+    'vue/multi-word-component-names': 'off',
   },
 };
