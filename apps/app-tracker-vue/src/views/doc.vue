@@ -7,7 +7,7 @@ const props = defineProps<{
 }>();
 const { docName } = toRefs(props);
 
-const docUrl = computed(() => `/${docName.value}.md`);
+const docUrl = computed(() => `/docs/${docName.value}.md`);
 const content = ref<string>('');
 
 async function fetchMarkdown() {
